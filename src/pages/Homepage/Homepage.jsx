@@ -8,6 +8,11 @@ import OurrServies from '../../components/OurServices/OurrServies'
 import Analitics from '../../components/Analytics/Analitics'
 import Qestion from '../../components/bg-pages/HomePage/Qestion/Qestion'
 import OurCleints from '../../components/OurClients/OurCleints'
+import OurBenefits from '../../components/bg-pages/HomePage/OurBenefits/OurBenefits'
+import PlansPrize from '../../components/PlansPrize/PlansPrize'
+import Commets from '../../components/Comments/Commets'
+import News from '../../components/News/News'
+import Footer from '../../components/Base/Footer/Footer'
 
 function Homepage() {
   return (
@@ -21,6 +26,11 @@ function Homepage() {
        <Analitics/>
        <Qestion/>
        <OurCleints/>
+       <OurBenefits/>
+       <PlansPrize/>
+       <Commets/>
+       <News/>
+       <Footer/>
     </div>
   )
 }

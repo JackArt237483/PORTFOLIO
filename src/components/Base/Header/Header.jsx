@@ -1,5 +1,6 @@
 import React from 'react'
 import logo_header from "../../../assets/SVG/LOGO-HEADER.svg"
+import { Link } from 'react-router-dom'
 
 function Header() {
   return (
@@ -9,7 +10,7 @@ function Header() {
         <img src={logo_header} alt="logo_heaer"/>
           <ul className='flex justify-between w-[500px] ml-[60px] gap-[40px]
           text-[16px] leading-[25.6px] text-white'>
-            <li>Services</li>
+            <li><Link to="/servies">Services</Link></li>
             <li>Case Studies</li>
             <li>About Us</li>
             <li>Blog</li>

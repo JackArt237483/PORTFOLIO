@@ -10,6 +10,7 @@ module.exports = {
         'imagebg': "url('./assets/background/backgroundtwo.png')",
         'cardbg': "url('./assets/background/cardclient.png')",
         'servies': "url('./assets/ServiesImage/servies.png')",
+        'services': "url('./assets/background/backgroundServices.png')",
         'line': "linear-gradient(270deg, rgba(218, 219, 221, 0.00) 0%, rgba(218, 219, 221, 0.50) 12.33%, #DADBDD 51.91%, rgba(218, 219, 221, 0.50) 87.85%, rgba(218, 219, 221, 0.00) 100%)"
       },
       colors: {

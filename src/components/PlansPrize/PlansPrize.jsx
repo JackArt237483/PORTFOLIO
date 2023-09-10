@@ -37,15 +37,15 @@ function PlansPrize() {
   return (
     <div className='w-[1230px] mx-auto mt-[180px]'>
        <h2 className='text-black text-[46px] leading-[130%]
-       '>Flexible pricing plans</h2>
+       text-center'>Flexible pricing plans</h2>
        <div className='w-[390px] mx-auto rounded-[40px] border border-solid border-perple mt-[60px]'>
          <ul className='flex text-perple text-[16px] leading-[25px]
           justify-between'>
            <li className='w-[300px] h-[46px] p-[10px_20px] hover:bg-perple
-           hover:rounded-[40px] hover:text-white'
+           hover:rounded-[40px] text-center hover:text-white'
            >Monthly</li>
            <li className='w-[300px] h-[46px] p-[10px_20px] hover:bg-perple
-           hover:rounded-[40px] hover:text-white'>Yearly
+           hover:rounded-[40px] hover:text-white text-center'>Yearly
            <span className='w-[70px] text-[12px] leading-[18px]'>-12% Off</span></li>
          </ul>
        </div>
@@ -69,7 +69,7 @@ function PlansPrize() {
                <b className='text-[16px] leading-[25px] text-black ml-[2px]'>{obj.title}</b>
              </li>
            </ul>))}
-           <button className='w-[146px] h-[44px] border border-perple border-solid
+           <button className='w-[146px] h-[44px] border border-perple ml-[120px] border-solid
            text-perple mt-[32px] leading-[44px] text-[16px] mx-auto rounded-[4px]'>Choose plan</button>
          </div>
          <div className='w-[390px] h-[536px] shadow-shadow-card rounded-[4px] bg-black
@@ -92,7 +92,7 @@ function PlansPrize() {
              </li>
            </ul>))}
            <button className='w-[146px] h-[44px] border border-perple border-solid
-           text-white mt-[32px] leading-[44px] bg-perple text-[16px] mx-auto rounded-[4px]'>
+           text-white ml-[120px] mt-[32px] leading-[44px] bg-perple text-[16px] mx-auto rounded-[4px]'>
             Choose plan</button>
          </div>
          <div className='w-[390px] h-[536px] shadow-shadow-card rounded-[4px]
@@ -114,7 +114,7 @@ function PlansPrize() {
                <b className='text-[16px] leading-[25px] text-black ml-[2px]'>{obj.title}</b>
              </li>
            </ul>))}
-           <button className='w-[146px] h-[44px] border border-perple border-solid
+           <button className='w-[146px] ml-[120px] h-[44px] border border-perple border-solid
            text-perple mt-[32px] leading-[44px] text-[16px] mx-auto rounded-[4px]'>Choose plan</button>
          </div>
        </div>

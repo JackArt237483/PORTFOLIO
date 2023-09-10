@@ -13,8 +13,9 @@ function ServiesFirst() {
          <div className='w-[100px] items-center mx-auto flex justify-between'>
             <img src={home} alt="home" />
             <NavLink to="/"><img src={arrow} alt="arrow" /></NavLink>
-            <p className='text-[14px] leading-[21px] text-white opacity-[0.6]'>Servies</p>
-         </div>
+            <NavLink to="/services"><p className='text-[14px] leading-[21px] text-white opacity-[0.6]'>Servies</p>
+        </NavLink>
+          </div>
          <h1 className='text-[72px] leading-[130%] text-white mt-[40px]'>Our services</h1>
          <p className='text-[20px] leading-[30px] text-white opacity-[0.6] mt-[24px]'>
           We offer more than services. Our agency provides solutions to your top-priority concerns, involving customer targeting, email performance and sales growth. If there is no existing solution readily available, we create one, specifically to suit your business.</p>

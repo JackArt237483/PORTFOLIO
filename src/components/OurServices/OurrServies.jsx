@@ -15,24 +15,24 @@ function OurrServies() {
   return (
     <div className='w-[1230px] mx-auto mt-[180px]'>
        <h3 className='text-[46px] text-[#1E212C]
-       leading-[59px]'>
+       leading-[59px] text-center'>
         Our services</h3>
        <div className='mt-[40px]'>
          <ul className='flex justify-between
          text-[16px] text-[#9a9Ca5]'>
-           <li className='w-[246px] h-[46px] pt-[10px] hover:border-[#7772f1]
+           <li className='w-[246px] h-[46px] text-center pt-[10px] hover:border-[#7772f1]
            hover:border-solid hover:rounded-[4px] hover:border hover:text-[#7772f1]'>
             Social Media</li>
-           <li className='w-[246px] h-[46px] pt-[10px] hover:border-[#7772f1]
+           <li className='w-[246px] h-[46px] text-center pt-[10px] hover:border-[#7772f1]
            hover:border-solid hover:rounded-[4px] hover:border hover:text-[#7772f1]'>
             SEO</li>
-           <li className='w-[246px] h-[46px] pt-[10px] hover:border-[#7772f1]
+           <li className='w-[246px] h-[46px] text-center pt-[10px] hover:border-[#7772f1]
            hover:border-solid hover:rounded-[4px] hover:border hover:text-[#7772f1]'>
             Research</li>
-           <li className='w-[246px] h-[46px] pt-[10px] hover:border-[#7772f1]
+           <li className='w-[246px] h-[46px] text-center pt-[10px] hover:border-[#7772f1]
            hover:border-solid hover:rounded-[4px] hover:border hover:text-[#7772f1]'>
             Content & PR</li>
-           <li className='w-[246px] h-[46px] pt-[10px] hover:border-[#7772f1]
+           <li className='w-[246px] h-[46px] text-center pt-[10px] hover:border-[#7772f1]
            hover:border-solid hover:rounded-[4px] hover:border hover:text-[#7772f1]'>
             Payed Traffic</li>
          </ul>

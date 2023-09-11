@@ -34,7 +34,7 @@ function Commets() {
   return (
     <div className='w-[1230px] mx-auto mt-[180px]'>
        <h2 className='text-black text-[46px] leading-[130%]
-       '>What our clients say</h2>
+       text-center'>What our clients say</h2>
        <Swiper
        modules={[Navigation]}
        slidesPerView={"auto"}

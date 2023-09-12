@@ -4,6 +4,7 @@ import Homepage from './pages/Homepage/Homepage';
 import Servies from './pages/Servies/Servies';
 import ServicesTwo from './pages/Services/ServicesTwo';
 import CaseStudius from "./pages/СaseStudius/CaseStudius"
+import CaseStudy from "./pages/CaseStudty/CaseStudy"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
        <Route path="/servies" element={<Servies/>}/>
        <Route path="/services" element={<ServicesTwo/>}/>
        <Route path="/casestudius" element={<CaseStudius/>}/>
+       <Route path="/casestudy" element={<CaseStudy/>}/>
      </Routes>
   );
 }

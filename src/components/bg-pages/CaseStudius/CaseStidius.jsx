@@ -12,7 +12,7 @@ function CaseStidius() {
         <div className='w-[127px] flex justify-between mx-auto'>
            <NavLink to="/"><img src={home} alt="home" /></NavLink>
            <img src={arrow} alt="arrow" />
-           <NavLink to="/servies">
+           <NavLink to="/casestudy">
             <p className='text-white leading-[21px] text-[14px]'>
             Case Studies</p></NavLink></div>
         <h1 className='mt-[40px] text-[72px] leading-[130%] text-white'>

@@ -14,6 +14,7 @@ module.exports = {
         'image6': "url('./assets/casestudius/image6.png')",
         'image': "url('./assets/background/background.png')",
         'imagebg': "url('./assets/background/backgroundtwo.png')",
+        'studys': "url('./assets/background/backgroundseven.png')",
         'cardbg': "url('./assets/background/cardclient.png')",
         'servies': "url('./assets/ServiesImage/servies.png')",
         'services': "url('./assets/background/backgroundServices.png')",

@@ -5,6 +5,7 @@ import Servies from './pages/Servies/Servies';
 import ServicesTwo from './pages/Services/ServicesTwo';
 import CaseStudius from "./pages/СaseStudius/CaseStudius"
 import CaseStudy from "./pages/CaseStudty/CaseStudy"
+import AboutUs from './pages/AboutUs/AboutUs';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
        <Route path="/services" element={<ServicesTwo/>}/>
        <Route path="/casestudius" element={<CaseStudius/>}/>
        <Route path="/casestudy" element={<CaseStudy/>}/>
+       <Route path="/aboutus" element={<AboutUs/>}/>
      </Routes>
   );
 }

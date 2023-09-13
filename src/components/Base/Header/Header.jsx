@@ -12,7 +12,7 @@ function Header() {
           text-[16px] leading-[25.6px] text-white'>
             <li><NavLink to="/servies">Services</NavLink></li>
             <li><NavLink to="/casestudius">Case Studies</NavLink></li>
-            <li>About Us</li>
+            <li><NavLink to="/aboutus">About Us</NavLink></li>
             <li>Blog</li>
             <li>Contacts</li>
           </ul>

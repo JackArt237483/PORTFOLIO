@@ -17,8 +17,9 @@ function BlockFirst() {
            <img src={home} alt="home" />
            </NavLink>
            <img src={arrow} alt="arrow" />
+           <NavLink to="/carees">
             <p className='text-white leading-[21px] text-[14px]'>
-            About us</p>
+            About us</p></NavLink>
         </div>
         <h1 className='mt-[40px] text-[72px] leading-[130%] text-white'>
         About Us</h1>

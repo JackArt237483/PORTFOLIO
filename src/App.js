@@ -8,6 +8,7 @@ import CaseStudy from "./pages/CaseStudty/CaseStudy"
 import AboutUs from './pages/AboutUs/AboutUs';
 import Carees from './pages/Carees/Carees';
 import Blog from './pages/Blog/Blog';
+import SinglePost from './pages/SinglePost/SinglePost';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
        <Route path="/aboutus" element={<AboutUs/>}/>
        <Route path="/carees" element={<Carees/>}/>
        <Route path="/blog" element={<Blog/>}/>
+       <Route path="/singlepost" element={<SinglePost/>}/>
      </Routes>
   );
 }

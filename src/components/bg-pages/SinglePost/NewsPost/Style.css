@@ -1,0 +1,24 @@
+.next-button-slide{
+  width: 50px  !important;
+  height: 50px  !important;
+  background-image: url("../../../../assets//SinglePageImg//Left.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50px;
+}
+.prev-button-slide{
+  width: 50px !important;
+  height: 50px  !important;
+  background-image: url("../../../../assets//SinglePageImg//Right\ \(1\).svg");
+  background-position: center;
+  border-radius: 50px;
+  background-repeat: no-repeat;
+}
+.next-button-slide:hover{
+  background-color: blueviolet;
+  padding: 12px;
+}
+.prev-button-slide:hover{
+  background-color: blueviolet;
+  padding: 12px;
+}

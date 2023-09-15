@@ -14,8 +14,10 @@ function BlogFirst() {
            <img src={home} alt="home" />
            </NavLink>
            <img src={arrow} alt="arrow" />
+            <NavLink to="/singlepost">
             <p className='text-white leading-[21px] text-[14px]'>
             Blog</p>
+            </NavLink>
         </div>
         <h1 className='mt-[42px] text-[72px] leading-[130%] text-white'>
         Blog</h1>

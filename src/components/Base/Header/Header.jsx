@@ -14,7 +14,7 @@ function Header() {
             <li><NavLink to="/casestudius">Case Studies</NavLink></li>
             <li><NavLink to="/aboutus">About Us</NavLink></li>
             <li><NavLink to="/blog">Blog</NavLink></li>
-            <li>Contacts</li>
+            <li><NavLink to="/contacts">Contacts</NavLink></li>
           </ul>
         </div>
         <button className='bg-[#7772F1] w-[199px] h-[52px]

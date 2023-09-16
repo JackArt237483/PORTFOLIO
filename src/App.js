@@ -9,6 +9,7 @@ import AboutUs from './pages/AboutUs/AboutUs';
 import Carees from './pages/Carees/Carees';
 import Blog from './pages/Blog/Blog';
 import SinglePost from './pages/SinglePost/SinglePost';
+import Contacts from './pages/Contacts/Contacts';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
        <Route path="/carees" element={<Carees/>}/>
        <Route path="/blog" element={<Blog/>}/>
        <Route path="/singlepost" element={<SinglePost/>}/>
+       <Route path="/contacts" element={<Contacts/>}/>
      </Routes>
   );
 }
